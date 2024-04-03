@@ -6,6 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 
+import com.hrms.utility.Log;
 
 import org.openqa.selenium.By;
 
@@ -17,7 +18,7 @@ public class General extends Global {
 		driver.navigate().to(url);
 		System.out.println("Applocation Opened");  	//Printed in Console
 		Reporter.log("Application Opened");  		//Printed in html Report
-	//	Log.info("Application Opened");  			//Printed in logfile
+		Log.info("Application Opened");  			//Printed in logfile
 		Thread.sleep(3000);
 		
 	}
@@ -25,7 +26,7 @@ public class General extends Global {
 		driver.close();
 		System.out.println("Application Closed");
 		Reporter.log("Application Closed");  		//Printed in html Report
-	//	Log.info("Application Closed");  			//Printed in logfile
+		Log.info("Application Closed");  			//Printed in logfile
 		Thread.sleep(3000);
 	}
 	public void login() throws Exception {

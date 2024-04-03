@@ -1,4 +1,5 @@
 package com.hrms.testscripts;
+import org.apache.log4j.xml.DOMConfigurator;
 //import org.apache.log4j.xml.DOMConfigurator;
 import org.testng.annotations.Test;
 
@@ -8,7 +9,7 @@ public class TC005_Locations {
 //public static void main(String[] args) throws Exception {
 @Test
 public void tc005 () throws Exception{
-	//DOMConfigurator.configure("log4j");
+	DOMConfigurator.configure("log4j");
 
 	General obj = new General();
 	obj.openApplication();
