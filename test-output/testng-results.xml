@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Application Opened]]>
@@ -13,13 +13,28 @@
     <line>
       <![CDATA[Application Closed]]>
     </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Employee added]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successful]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-03-12T15:20:11Z" name="Default suite" finished-at="2024-03-12T15:20:44Z" duration-ms="32489">
+  <suite started-at="2024-04-03T09:34:49Z" name="Suite1" finished-at="2024-04-03T09:36:26Z" duration-ms="97211">
     <groups>
     </groups>
-    <test started-at="2024-03-12T15:20:11Z" name="Default test" finished-at="2024-03-12T15:20:44Z" duration-ms="32489">
+    <test started-at="2024-04-03T09:34:49Z" name="Nopackage" finished-at="2024-04-03T09:36:26Z" duration-ms="97211">
       <class name="com.hrms.testscripts.TC001">
-        <test-method signature="tc001()[pri:0, instance:com.hrms.testscripts.TC001@63eef88a]" started-at="2024-03-12T20:50:11Z" name="tc001" finished-at="2024-03-12T20:50:44Z" duration-ms="32441" status="PASS">
+        <test-method signature="tc001()[pri:0, instance:com.hrms.testscripts.TC001@587e5365]" started-at="2024-04-03T15:04:49Z" name="tc001" finished-at="2024-04-03T15:05:41Z" duration-ms="52003" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application Opened]]>
@@ -36,6 +51,27 @@
           </reporter-output>
         </test-method> <!-- tc001 -->
       </class> <!-- com.hrms.testscripts.TC001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.hrms.testscripts.TC002">
+        <test-method signature="tc002()[pri:0, instance:com.hrms.testscripts.TC002@70325e14]" started-at="2024-04-03T15:05:41Z" name="tc002" finished-at="2024-04-03T15:06:26Z" duration-ms="45169" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Employee added]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successful]]>
+            </line>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+      </class> <!-- com.hrms.testscripts.TC002 -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
 </testng-results>

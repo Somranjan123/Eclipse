@@ -2,3 +2,12 @@
 2024-03-12 20:37:32,473 INFO  [Log] Login Completed 
 2024-03-12 20:37:35,768 INFO  [Log] Logout Successful 
 2024-03-12 20:37:40,614 INFO  [Log] Application Closed 
+2024-04-03 15:05:15,401 INFO  [Log] Application Opened 
+2024-04-03 15:05:32,448 INFO  [Log] Login Completed 
+2024-04-03 15:05:35,737 INFO  [Log] Logout Successful 
+2024-04-03 15:05:41,463 INFO  [Log] Application Closed 
+2024-04-03 15:05:53,746 INFO  [Log] Application Opened 
+2024-04-03 15:06:08,450 INFO  [Log] Login Completed 
+2024-04-03 15:06:18,338 INFO  [Log] Employee Added 
+2024-04-03 15:06:20,636 INFO  [Log] Logout Successful 
+2024-04-03 15:06:26,640 INFO  [Log] Application Closed 
