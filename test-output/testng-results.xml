@@ -8,18 +8,21 @@
       <![CDATA[Login Completed]]>
     </line>
     <line>
+      <![CDATA[Employee added]]>
+    </line>
+    <line>
       <![CDATA[Logout Successful]]>
     </line>
     <line>
       <![CDATA[Application Closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-03-12T15:20:11Z" name="Default suite" finished-at="2024-03-12T15:20:44Z" duration-ms="32489">
+  <suite started-at="2024-04-03T11:21:45Z" name="Default suite" finished-at="2024-04-03T11:22:29Z" duration-ms="43266">
     <groups>
     </groups>
-    <test started-at="2024-03-12T15:20:11Z" name="Default test" finished-at="2024-03-12T15:20:44Z" duration-ms="32489">
-      <class name="com.hrms.testscripts.TC001">
-        <test-method signature="tc001()[pri:0, instance:com.hrms.testscripts.TC001@63eef88a]" started-at="2024-03-12T20:50:11Z" name="tc001" finished-at="2024-03-12T20:50:44Z" duration-ms="32441" status="PASS">
+    <test started-at="2024-04-03T11:21:45Z" name="Default test" finished-at="2024-04-03T11:22:29Z" duration-ms="43266">
+      <class name="com.hrms.testscripts.TC002">
+        <test-method signature="tc002()[pri:0, instance:com.hrms.testscripts.TC002@63eef88a]" started-at="2024-04-03T16:51:45Z" name="tc002" finished-at="2024-04-03T16:52:29Z" duration-ms="43243" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application Opened]]>
@@ -28,14 +31,17 @@
               <![CDATA[Login Completed]]>
             </line>
             <line>
+              <![CDATA[Employee added]]>
+            </line>
+            <line>
               <![CDATA[Logout Successful]]>
             </line>
             <line>
               <![CDATA[Application Closed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc001 -->
-      </class> <!-- com.hrms.testscripts.TC001 -->
+        </test-method> <!-- tc002 -->
+      </class> <!-- com.hrms.testscripts.TC002 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

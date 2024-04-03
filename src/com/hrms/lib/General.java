@@ -36,14 +36,14 @@ public class General extends Global {
 		Thread.sleep(3000);
 		System.out.println("Login Completed");
 		Reporter.log("Login Completed");  		//Printed in html Report
-	//	Log.info("Login Completed");  			//Printed in logfile
+		Log.info("Login Completed");  			//Printed in logfile
 	}
 	public void logout() throws Exception {
 		driver.findElement(By.linkText(Logout_link)).click();
 		System.out.println("Logout Completed");	
 		System.out.println("Logout");
 		Reporter.log("Logout Successful");  		//Printed in html Report
-	//	Log.info("Logout Successful");  			//Printed in logfile
+		Log.info("Logout Successful");  			//Printed in logfile
 	
 	}
 	public void add_employee() throws Exception {
@@ -56,7 +56,7 @@ public class General extends Global {
 		Thread.sleep(3000);
 		System.out.println("Employee details Saved");
 		Reporter.log("Employee added");  		//Printed in html Report
-	//	Log.info("Employee Added");  			//Printed in logfile
+		Log.info("Employee Added");  			//Printed in logfile
 	
 	}
 	public void delete_emp() throws Exception {
@@ -76,7 +76,7 @@ public class General extends Global {
 		Thread.sleep(3000);
 		System.out.println("Employee detaild deleted");
 		Reporter.log("Employee Details Deleted");  		//Printed in html Report
-	//	Log.info("Employee Details Deleted");  			//Printed in logfile
+		Log.info("Employee Details Deleted");  			//Printed in logfile
 	
 	}
 	public void Swich_in() {
@@ -104,7 +104,7 @@ public class General extends Global {
 		driver.findElement(By.xpath(Save_edit_btn)).click();
 		System.out.println("Employee name edited");
 		Reporter.log("Employee Details Edited");  		//Printed in html Report
-	//	Log.info("Employee Details Edited");  			//Printed in logfile
+		Log.info("Employee Details Edited");  			//Printed in logfile
 	}
 	public void Upload_image() throws Exception {
 		driver.findElement(By.xpath(add_employee_btn)).click();
@@ -121,7 +121,7 @@ public class General extends Global {
 		Thread.sleep(3000);
 		System.out.println("Employee details Saved");
 		Reporter.log("Image Uploaded");  		//Printed in html Report
-	//	Log.info("Image Uploaded");  			//Printed in logfile
+		Log.info("Image Uploaded");  			//Printed in logfile
 	
 	}
 	
@@ -131,7 +131,7 @@ public class General extends Global {
 		Thread.sleep(3000);
 		System.out.println("First mouse over done");
 		Reporter.log("First Mouseover Done");  		//Printed in html Report
-	//	Log.info("First Mouseover Done");  			//Printed in logfile
+		Log.info("First Mouseover Done");  			//Printed in logfile
 		
 	}
 	public void mouseover_Companyinfo() throws Exception {
@@ -140,14 +140,14 @@ public class General extends Global {
 		Thread.sleep(3000);
 		System.out.println("second mouseover completed");
 		Reporter.log("Second Mouseover Done");  		//Printed in html Report
-	//	Log.info("Second Mouseover Done");  			//Printed in logfile
+		Log.info("Second Mouseover Done");  			//Printed in logfile
 	}
 	public void Click_on_Locations() throws Exception {
 		driver.findElement(By.xpath(btn_Location)).click();
 		Thread.sleep(3000);
 		System.out.println("Clicked on location btn");
 		Reporter.log("Clicked on Location Btn");  		//Printed in html Report
-	//	Log.info("Clicked on Location Btn");  			//Printed in logfile
+		Log.info("Clicked on Location Btn");  			//Printed in logfile
 	}
 	public void Location() throws Exception{
 		driver.findElement(By.xpath(btn_Add_location)).click();
@@ -166,7 +166,7 @@ public class General extends Global {
 		Thread.sleep(3000);
 		System.out.println("Location Saved");
 		Reporter.log("Location Saved");  		//Printed in html Report
-	//	Log.info("Location Saved");  			//Printed in logfile
+		Log.info("Location Saved");  			//Printed in logfile
 }
 }
 

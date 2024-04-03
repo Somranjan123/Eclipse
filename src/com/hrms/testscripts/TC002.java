@@ -18,8 +18,9 @@ public void tc002() throws Exception{
 		Thread.sleep(2000);
 		obj.Swich_in();
 		obj.add_employee();
-		Thread.sleep(2000);
 		obj.Switch_out();
+		Thread.sleep(2000);
+
 		obj.logout();
 		obj.closeApplication();
 		
