@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successful]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
     <line>
       <![CDATA[Application Opened]]>
     </line>
@@ -16,13 +28,91 @@
     <line>
       <![CDATA[Application Closed]]>
     </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Employee Details Deleted]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successful]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[First Mouseover Done]]>
+    </line>
+    <line>
+      <![CDATA[Second Mouseover Done]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Location Btn]]>
+    </line>
+    <line>
+      <![CDATA[Location Saved]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successful]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Image Uploaded]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successful]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-04-03T11:21:45Z" name="Default suite" finished-at="2024-04-03T11:22:29Z" duration-ms="43266">
+  <suite started-at="2024-04-05T07:26:06Z" name="Suite1" finished-at="2024-04-05T07:32:31Z" duration-ms="384986">
     <groups>
     </groups>
-    <test started-at="2024-04-03T11:21:45Z" name="Default test" finished-at="2024-04-03T11:22:29Z" duration-ms="43266">
+    <test started-at="2024-04-05T07:26:06Z" name="Nopackage" finished-at="2024-04-05T07:32:31Z" duration-ms="384986">
+      <class name="com.hrms.testscripts.TC001">
+        <test-method signature="tc001()[pri:0, instance:com.hrms.testscripts.TC001@e4487af]" started-at="2024-04-05T12:56:06Z" name="tc001" finished-at="2024-04-05T12:57:45Z" duration-ms="98288" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successful]]>
+            </line>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+      </class> <!-- com.hrms.testscripts.TC001 -->
       <class name="com.hrms.testscripts.TC002">
-        <test-method signature="tc002()[pri:0, instance:com.hrms.testscripts.TC002@63eef88a]" started-at="2024-04-03T16:51:45Z" name="tc002" finished-at="2024-04-03T16:52:29Z" duration-ms="43243" status="PASS">
+        <test-method signature="tc002()[pri:0, instance:com.hrms.testscripts.TC002@757277dc]" started-at="2024-04-05T12:57:45Z" name="tc002" finished-at="2024-04-05T12:58:41Z" duration-ms="56405" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application Opened]]>
@@ -42,6 +132,155 @@
           </reporter-output>
         </test-method> <!-- tc002 -->
       </class> <!-- com.hrms.testscripts.TC002 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.hrms.testscripts.TC005_Locations">
+        <test-method signature="tc005()[pri:0, instance:com.hrms.testscripts.TC005_Locations@6aaceffd]" started-at="2024-04-05T13:00:05Z" name="tc005" finished-at="2024-04-05T13:01:35Z" duration-ms="90625" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[First Mouseover Done]]>
+            </line>
+            <line>
+              <![CDATA[Second Mouseover Done]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Location Btn]]>
+            </line>
+            <line>
+              <![CDATA[Location Saved]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successful]]>
+            </line>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc005 -->
+      </class> <!-- com.hrms.testscripts.TC005_Locations -->
+      <class name="com.hrms.testscripts.TC006_Upload_image">
+        <test-method signature="tc006()[pri:0, instance:com.hrms.testscripts.TC006_Upload_image@c86b9e3]" started-at="2024-04-05T13:01:35Z" name="tc006" finished-at="2024-04-05T13:02:31Z" duration-ms="56115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Image Uploaded]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successful]]>
+            </line>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc006 -->
+      </class> <!-- com.hrms.testscripts.TC006_Upload_image -->
+      <class name="com.hrms.testscripts.TC003_Deleteemp">
+        <test-method signature="tc003()[pri:0, instance:com.hrms.testscripts.TC003_Deleteemp@687e99d8]" started-at="2024-04-05T12:58:41Z" name="tc003" finished-at="2024-04-05T12:59:32Z" duration-ms="51018" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Employee Details Deleted]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successful]]>
+            </line>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc003 -->
+      </class> <!-- com.hrms.testscripts.TC003_Deleteemp -->
+      <class name="com.hrms.testscripts.TC004_Editemp">
+        <test-method signature="tc004()[pri:0, instance:com.hrms.testscripts.TC004_Editemp@f79e]" started-at="2024-04-05T12:59:32Z" name="tc004" finished-at="2024-04-05T13:00:05Z" duration-ms="32497" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: *[name='EditMain']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3cf69b7d-dc3a-49ad-9ffb-faf49079c518, findElement {value=EditMain, using=name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:18331, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15372, moz:profile: C:\Users\SHRAVY~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18331/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3cf69b7d-dc3a-49ad-9ffb-faf49079c518]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='EditMain']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3cf69b7d-dc3a-49ad-9ffb-faf49079c518, findElement {value=EditMain, using=name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:18331, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15372, moz:profile: C:\Users\SHRAVY~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18331/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3cf69b7d-dc3a-49ad-9ffb-faf49079c518
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at com.hrms.lib.General.Edit_emp(General.java:101)
+	at com.hrms.testscripts.TC004_Editemp.tc004(TC004_Editemp.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc004 -->
+      </class> <!-- com.hrms.testscripts.TC004_Editemp -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
 </testng-results>

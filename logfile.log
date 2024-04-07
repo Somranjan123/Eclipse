@@ -73,3 +73,32 @@
 2024-04-03 16:50:26,231 INFO  [Log] Image Uploaded 
 2024-04-03 16:50:26,516 INFO  [Log] Logout Successful 
 2024-04-03 16:50:30,161 INFO  [Log] Application Closed 
+2024-04-05 12:57:12,522 INFO  [Log] Application Opened 
+2024-04-05 12:57:28,007 INFO  [Log] Login Completed 
+2024-04-05 12:57:31,788 INFO  [Log] Logout Successful 
+2024-04-05 12:57:42,179 INFO  [Log] Application Closed 
+2024-04-05 12:58:08,067 INFO  [Log] Application Opened 
+2024-04-05 12:58:22,265 INFO  [Log] Login Completed 
+2024-04-05 12:58:32,119 INFO  [Log] Employee Added 
+2024-04-05 12:58:34,402 INFO  [Log] Logout Successful 
+2024-04-05 12:58:38,596 INFO  [Log] Application Closed 
+2024-04-05 12:58:54,761 INFO  [Log] Application Opened 
+2024-04-05 12:59:05,626 INFO  [Log] Login Completed 
+2024-04-05 12:59:21,957 INFO  [Log] Employee Details Deleted 
+2024-04-05 12:59:24,220 INFO  [Log] Logout Successful 
+2024-04-05 12:59:29,607 INFO  [Log] Application Closed 
+2024-04-05 12:59:42,956 INFO  [Log] Application Opened 
+2024-04-05 12:59:54,354 INFO  [Log] Login Completed 
+2024-04-05 13:00:38,118 INFO  [Log] Application Opened 
+2024-04-05 13:00:47,349 INFO  [Log] Login Completed 
+2024-04-05 13:00:53,124 INFO  [Log] First Mouseover Done 
+2024-04-05 13:00:58,284 INFO  [Log] Second Mouseover Done 
+2024-04-05 13:01:04,990 INFO  [Log] Clicked on Location Btn 
+2024-04-05 13:01:25,481 INFO  [Log] Location Saved 
+2024-04-05 13:01:27,787 INFO  [Log] Logout Successful 
+2024-04-05 13:01:32,739 INFO  [Log] Application Closed 
+2024-04-05 13:02:00,631 INFO  [Log] Application Opened 
+2024-04-05 13:02:09,160 INFO  [Log] Login Completed 
+2024-04-05 13:02:20,989 INFO  [Log] Image Uploaded 
+2024-04-05 13:02:21,935 INFO  [Log] Logout Successful 
+2024-04-05 13:02:28,866 INFO  [Log] Application Closed 

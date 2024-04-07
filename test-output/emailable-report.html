@@ -31,19 +31,98 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">43.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Nopackage</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">385.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.hrms.testscripts.TC002</td><td><a href="#m1"><b>tc002</b>  </a></td><td class="numi">1</td><td>1712143305899</td><td class="numi">43243</td></tr>
+<tr><th colspan="4">Nopackage &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.hrms.testscripts.TC004_Editemp</td><td><a href="#m1"><b>tc004</b>  </a></td><td class="numi">1</td><td>1712302172624</td><td class="numi">32497</td></tr>
+<tr><th colspan="4">Nopackage &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.hrms.testscripts.TC001</td><td><a href="#m2"><b>tc001</b>  </a></td><td class="numi">1</td><td>1712301966906</td><td class="numi">98288</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrms.testscripts.TC002</td><td><a href="#m3"><b>tc002</b>  </a></td><td class="numi">1</td><td>1712302065197</td><td class="numi">56405</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrms.testscripts.TC003_Deleteemp</td><td><a href="#m4"><b>tc003</b>  </a></td><td class="numi">1</td><td>1712302121604</td><td class="numi">51018</td></tr>
+<tr class="passedeven"><td rowspan="1">com.hrms.testscripts.TC005_Locations</td><td><a href="#m5"><b>tc005</b>  </a></td><td class="numi">1</td><td>1712302205129</td><td class="numi">90625</td></tr>
+<tr class="passedodd"><td rowspan="1">com.hrms.testscripts.TC006_Upload_image</td><td><a href="#m6"><b>tc006</b>  </a></td><td class="numi">1</td><td>1712302295756</td><td class="numi">56115</td></tr>
 </table>
-<h1>Default test</h1>
-<h2 id="m1">com.hrms.testscripts.TC002:tc002</h2>
+<h1>Nopackage</h1>
+<h2 id="m1">com.hrms.testscripts.TC004_Editemp:tc004</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Application Opened<br/>
+Login Completed<br/>
+<h3>Failure</h3>
+<p>Unable to locate element: *[name=&apos;EditMain&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3cf69b7d-dc3a-49ad-9ffb-faf49079c518, findElement {value=EditMain, using=name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0.1, moz:accessibilityChecks: false, moz:buildID: 20240108143603, moz:debuggerAddress: 127.0.0.1:18331, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15372, moz:profile: C:\Users\SHRAVY~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18331/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3cf69b7d-dc3a-49ad-9ffb-faf49079c518</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+<br/>at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+<br/>at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+<br/>at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+<br/>at com.hrms.lib.General.Edit_emp(General.java:101)
+<br/>at com.hrms.testscripts.TC004_Editemp.tc004(TC004_Editemp.java:23)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.hrms.testscripts.TC005_Locations:tc005</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+First Mouseover Done<br/>
+Second Mouseover Done<br/>
+Clicked on Location Btn<br/>
+Location Saved<br/>
+Logout Successful<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.hrms.testscripts.TC002:tc002</h2>
 <div style="padding-left:3em">
 Application Opened<br/>
 Login Completed<br/>
 Employee added<br/>
+Logout Successful<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.hrms.testscripts.TC003_Deleteemp:tc003</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Employee Details Deleted<br/>
+Logout Successful<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.hrms.testscripts.TC006_Upload_image:tc006</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
+Image Uploaded<br/>
+Logout Successful<br/>
+Application Closed<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.hrms.testscripts.TC001:tc001</h2>
+<div style="padding-left:3em">
+Application Opened<br/>
+Login Completed<br/>
 Logout Successful<br/>
 Application Closed<br/>
 </div>
